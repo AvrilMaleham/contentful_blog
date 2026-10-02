@@ -1,0 +1,27 @@
+import Image from "next/image";
+
+type ArticleProps = {
+  title: string;
+  body: string;
+  image: string;
+  author: string;
+};
+
+export default function Article({ title, body, image, author }: ArticleProps) {
+  return (
+    <article>
+      <div className="relative mb-4 aspect-3/2 w-full bg-stone-200">
+        <Image
+          src={image}
+          alt=""
+          fill
+          sizes="(max-width: 640px) 100vw, 480px"
+          className="object-cover"
+        />
+      </div>
+      <h3 className="text-xl">{title}</h3>
+      <p className="mt-2 leading-relaxed text-stone-700">{body}</p>
+      <p className="mt-4 text-sm text-stone-500">{author}</p>
+    </article>
+  );
+}

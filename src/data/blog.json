@@ -1,0 +1,57 @@
+{
+  "title": "Glow Notes",
+  "headline": "Small routines for hair, makeup, and skin.",
+  "sections": [
+    {
+      "title": "Hair",
+      "articles": [
+        {
+          "title": "Gloss without the weight",
+          "body": "A few drops of oil on the ends is enough. Work it through once the hair is almost dry, and skip the roots.",
+          "image": "/images/008.jpg",
+          "author": "Maya Chen"
+        },
+        {
+          "title": "A low bun for humid days",
+          "body": "Twist the hair once, pin it loosely, and leave a few pieces out. It holds longer when it is not pulled tight.",
+          "image": "/images/Anam-Cara-Zest-scaled-e1637835598159.jpg",
+          "author": "Maya Chen"
+        }
+      ]
+    },
+    {
+      "title": "Makeup",
+      "articles": [
+        {
+          "title": "One blush, three places",
+          "body": "Use the same cream color on the cheeks, the lids, and the bridge of the nose. It looks finished without a longer routine.",
+          "image": "/images/blog-best-brow-shape-sticky-1 copy.jpg",
+          "author": "Ava Morales"
+        },
+        {
+          "title": "A brown liner, softly",
+          "body": "Trace close to the lash line and smudge it with a fingertip. It reads as depth rather than a drawn line.",
+          "image": "/images/images.avif",
+          "author": "Ava Morales"
+        }
+      ]
+    },
+    {
+      "title": "Skincare",
+      "articles": [
+        {
+          "title": "Moisturizer on damp skin",
+          "body": "Leave a little water on your face and press the cream in. It sits more evenly, and you need less of it.",
+          "image": "/images/IMG_3953.jpeg",
+          "author": "Noah Patel"
+        },
+        {
+          "title": "Sunscreen as the last step",
+          "body": "Whatever else happens in the morning, this is the step that stays. Put it on after moisturizer, and again if you are outside.",
+          "image": "/images/TBC_GL_1_7864b0d3-ed26-4dfb-b753-60d567e9e623_750x.webp",
+          "author": "Noah Patel"
+        }
+      ]
+    }
+  ]
+}

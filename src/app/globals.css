@@ -1,1 +1,7 @@
 @import "tailwindcss";
+
+body {
+  background: #f6f1eb;
+  color: #2b2420;
+  font-family: "Iowan Old Style", Palatino, "Palatino Linotype", Georgia, serif;
+}
