@@ -1,0 +1,602 @@
+{
+  "locales": [
+    {
+      "name": "English (United States)",
+      "code": "en-US",
+      "default": true,
+      "contentManagementApi": true,
+      "contentDeliveryApi": true
+    }
+  ],
+  "assets": [
+    {
+      "sys": {
+        "id": "image-gloss-without-the-weight",
+        "type": "Asset",
+        "publishedVersion": 1
+      },
+      "fields": {
+        "title": {
+          "en-US": "Gloss without the weight"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/iqabmbjjblbf/image-gloss-without-the-weight/008.jpg",
+            "fileName": "008.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "image-a-low-bun-for-humid-days",
+        "type": "Asset",
+        "publishedVersion": 1
+      },
+      "fields": {
+        "title": {
+          "en-US": "A low bun for humid days"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/iqabmbjjblbf/image-a-low-bun-for-humid-days/Anam-Cara-Zest-scaled-e1637835598159.jpg",
+            "fileName": "Anam-Cara-Zest-scaled-e1637835598159.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "image-one-blush-three-places",
+        "type": "Asset",
+        "publishedVersion": 1
+      },
+      "fields": {
+        "title": {
+          "en-US": "One blush, three places"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/iqabmbjjblbf/image-one-blush-three-places/blog-best-brow-shape-sticky-1 copy.jpg",
+            "fileName": "blog-best-brow-shape-sticky-1 copy.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "image-a-brown-liner-softly",
+        "type": "Asset",
+        "publishedVersion": 1
+      },
+      "fields": {
+        "title": {
+          "en-US": "A brown liner, softly"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/iqabmbjjblbf/image-a-brown-liner-softly/images.avif",
+            "fileName": "images.avif",
+            "contentType": "image/avif"
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "image-moisturizer-on-damp-skin",
+        "type": "Asset",
+        "publishedVersion": 1
+      },
+      "fields": {
+        "title": {
+          "en-US": "Moisturizer on damp skin"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/iqabmbjjblbf/image-moisturizer-on-damp-skin/IMG_3953.jpeg",
+            "fileName": "IMG_3953.jpeg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "image-sunscreen-as-the-last-step",
+        "type": "Asset",
+        "publishedVersion": 1
+      },
+      "fields": {
+        "title": {
+          "en-US": "Sunscreen as the last step"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/iqabmbjjblbf/image-sunscreen-as-the-last-step/TBC_GL_1_7864b0d3-ed26-4dfb-b753-60d567e9e623_750x.webp",
+            "fileName": "TBC_GL_1_7864b0d3-ed26-4dfb-b753-60d567e9e623_750x.webp",
+            "contentType": "image/webp"
+          }
+        }
+      }
+    }
+  ],
+  "entries": [
+    {
+      "sys": {
+        "id": "maya-chen",
+        "type": "Entry",
+        "publishedVersion": 1,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "author"
+          }
+        }
+      },
+      "fields": {
+        "name": {
+          "en-US": "Maya Chen"
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "ava-morales",
+        "type": "Entry",
+        "publishedVersion": 1,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "author"
+          }
+        }
+      },
+      "fields": {
+        "name": {
+          "en-US": "Ava Morales"
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "noah-patel",
+        "type": "Entry",
+        "publishedVersion": 1,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "author"
+          }
+        }
+      },
+      "fields": {
+        "name": {
+          "en-US": "Noah Patel"
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "gloss-without-the-weight",
+        "type": "Entry",
+        "publishedVersion": 1,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "article"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Gloss without the weight"
+        },
+        "preview": {
+          "en-US": "A few drops of oil on the ends is enough. Work it through once the hair is almost dry, and skip the roots."
+        },
+        "body": {
+          "en-US": "A few drops of oil on the ends is enough. The point is shine, not a coating, so start with less than you think you need and add more only if the ends still look dry.\n\nWork it through once the hair is almost dry, and skip the roots. Wet hair hides how much you have used. Waiting until it is nearly dry makes it easier to see where the oil actually sits.\n\nIf your hair is fine, keep it to the last few inches. If it is thicker, you can go a little higher, but the roots should stay alone. Gloss shows up when the hair can still move."
+        },
+        "image": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "image-gloss-without-the-weight"
+            }
+          }
+        },
+        "author": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "maya-chen"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "a-low-bun-for-humid-days",
+        "type": "Entry",
+        "publishedVersion": 1,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "article"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "A low bun for humid days"
+        },
+        "preview": {
+          "en-US": "Twist the hair once, pin it loosely, and leave a few pieces out. It holds longer when it is not pulled tight."
+        },
+        "body": {
+          "en-US": "Twist the hair once, pin it loosely, and leave a few pieces out. A humid day will move the hair anyway, so the bun should have somewhere to go.\n\nIt holds longer when it is not pulled tight. Tension is what makes pieces slip. A loose twist sits closer to the head and stays put when you turn or walk outside.\n\nUse two pins if you need them, crossed where you cannot see them. The pieces left out keep the shape from looking severe once the air gets heavy."
+        },
+        "image": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "image-a-low-bun-for-humid-days"
+            }
+          }
+        },
+        "author": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "maya-chen"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "one-blush-three-places",
+        "type": "Entry",
+        "publishedVersion": 1,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "article"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "One blush, three places"
+        },
+        "preview": {
+          "en-US": "Use the same cream color on the cheeks, the lids, and the bridge of the nose. It looks finished without a longer routine."
+        },
+        "body": {
+          "en-US": "Use the same cream color on the cheeks, the lids, and the bridge of the nose. One color, used in small amounts, does more than three products that do not quite match.\n\nStart at the cheeks and tap what is left on your finger onto the lids. The bridge of the nose only needs whatever remains after that. If you go back for more, it stops looking accidental.\n\nIt looks finished without a longer routine. Cream sits better on bare skin than powder does, and it is easier to soften if you put on too much. Stop when the color is visible in daylight and quiet indoors."
+        },
+        "image": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "image-one-blush-three-places"
+            }
+          }
+        },
+        "author": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "ava-morales"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "a-brown-liner-softly",
+        "type": "Entry",
+        "publishedVersion": 1,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "article"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "A brown liner, softly"
+        },
+        "preview": {
+          "en-US": "Trace close to the lash line and smudge it with a fingertip. It reads as depth rather than a drawn line."
+        },
+        "body": {
+          "en-US": "Trace close to the lash line and smudge it with a fingertip. Brown is quieter than black, and the smudge is what keeps it from looking drawn on.\n\nStay in the outer two-thirds of the eye if a full line feels like too much. The inner corner can stay bare. Depth at the lash line is enough to make the eye look clearer.\n\nA pencil that is a little warm is easier to wear than a cool grey-brown. If the line disappears by the afternoon, press what is left back into the lashes instead of redrawing it from the start."
+        },
+        "image": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "image-a-brown-liner-softly"
+            }
+          }
+        },
+        "author": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "ava-morales"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "moisturizer-on-damp-skin",
+        "type": "Entry",
+        "publishedVersion": 1,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "article"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Moisturizer on damp skin"
+        },
+        "preview": {
+          "en-US": "Leave a little water on your face and press the cream in. It sits more evenly, and you need less of it."
+        },
+        "body": {
+          "en-US": "Leave a little water on your face and press the cream in. Dry skin grabs moisturizer in patches. A damp face lets it spread before it sets.\n\nPat your face so it is wet, not dripping, then use less cream than you would on dry skin. Press it in with your palms instead of rubbing. Rubbing just moves it around.\n\nIt sits more evenly, and you need less of it. Give it a minute before sunscreen or makeup. If it still feels slick, you used too much, not too little water."
+        },
+        "image": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "image-moisturizer-on-damp-skin"
+            }
+          }
+        },
+        "author": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "noah-patel"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "sunscreen-as-the-last-step",
+        "type": "Entry",
+        "publishedVersion": 1,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "article"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Sunscreen as the last step"
+        },
+        "preview": {
+          "en-US": "Whatever else happens in the morning, this is the step that stays. Put it on after moisturizer, and again if you are outside."
+        },
+        "body": {
+          "en-US": "Whatever else happens in the morning, this is the step that stays. Moisturizer underneath is optional. Sunscreen on top is not.\n\nPut it on after moisturizer, once the cream has settled, and use enough to cover your face and neck. A thin swipe down the nose does not count. If it pills, wait longer between steps rather than skipping this one.\n\nPut it on again if you are outside, especially after a few hours or after you sweat. The morning layer is the start of the day, not the whole of it."
+        },
+        "image": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "image-sunscreen-as-the-last-step"
+            }
+          }
+        },
+        "author": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "noah-patel"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "hair",
+        "type": "Entry",
+        "publishedVersion": 1,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "section"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Hair"
+        },
+        "articles": {
+          "en-US": [
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "gloss-without-the-weight"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "a-low-bun-for-humid-days"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "makeup",
+        "type": "Entry",
+        "publishedVersion": 1,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "section"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Makeup"
+        },
+        "articles": {
+          "en-US": [
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "one-blush-three-places"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "a-brown-liner-softly"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "skincare",
+        "type": "Entry",
+        "publishedVersion": 1,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "section"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Skincare"
+        },
+        "articles": {
+          "en-US": [
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "moisturizer-on-damp-skin"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "sunscreen-as-the-last-step"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "glow-notes",
+        "type": "Entry",
+        "publishedVersion": 1,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "landingPage"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Glow Notes"
+        },
+        "headline": {
+          "en-US": "Small routines for hair, makeup, and skin."
+        },
+        "sections": {
+          "en-US": [
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "hair"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "makeup"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "skincare"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
