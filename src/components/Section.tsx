@@ -1,15 +1,13 @@
 import Article from "@/components/Article";
 
-type ArticleContent = {
-  title: string;
-  body: string;
-  image: string;
-  author: string;
-};
-
 type SectionProps = {
   title: string;
-  articles: ArticleContent[];
+  articles: {
+    title: string;
+    preview: string;
+    image: string;
+    author: string;
+  }[];
 };
 
 export default function Section({ title, articles }: SectionProps) {
