@@ -28,6 +28,7 @@ type AuthorSkeleton = EntrySkeletonType<
 type ArticleSkeleton = EntrySkeletonType<
   {
     title: EntryFieldTypes.Symbol;
+    slug: EntryFieldTypes.Symbol;
     preview: EntryFieldTypes.Symbol;
     body: EntryFieldTypes.Text;
     image: EntryFieldTypes.AssetLink;
@@ -63,10 +64,22 @@ export async function getLandingPage() {
   return entries.items[0] ?? null;
 }
 
-export async function getArticleByTitle(title: string) {
+export async function getArticleSlugs() {
   const entries = await client.getEntries<ArticleSkeleton>({
     content_type: "article",
-    "fields.title": title,
+    select: ["fields.slug"],
+    limit: 100,
+  });
+
+  return entries.items.flatMap((entry) =>
+    entry.fields.slug ? [entry.fields.slug] : [],
+  );
+}
+
+export async function getArticleBySlug(slug: string) {
+  const entries = await client.getEntries<ArticleSkeleton>({
+    content_type: "article",
+    "fields.slug": slug,
     include: 1,
     limit: 1,
   });

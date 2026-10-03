@@ -1,28 +1,7 @@
 import { notFound } from "next/navigation";
-import type {
-  Asset,
-  Entry,
-  EntrySkeletonType,
-  UnresolvedLink,
-} from "contentful";
 import Section from "@/components/Section";
 import { getLandingPage } from "@/lib/contentful";
-
-function isEntry<Skeleton extends EntrySkeletonType>(
-  value: Entry<Skeleton> | UnresolvedLink<"Entry"> | undefined,
-): value is Entry<Skeleton> {
-  return value?.sys.type === "Entry";
-}
-
-function isAsset(
-  value: Asset | UnresolvedLink<"Asset"> | undefined,
-): value is Asset {
-  return value?.sys.type === "Asset";
-}
-
-function imageUrl(url: string) {
-  return url.startsWith("//") ? `https:${url}` : url;
-}
+import { imageUrl, isAsset, isEntry } from "@/lib/contentful-fields";
 
 export default async function Home() {
   const page = await getLandingPage();
@@ -50,6 +29,7 @@ export default async function Home() {
       return [
         {
           title: article.fields.title,
+          slug: article.fields.slug,
           preview: article.fields.preview,
           image: imageUrl(image.fields.file.url),
           author: isEntry(author) ? author.fields.name : "",

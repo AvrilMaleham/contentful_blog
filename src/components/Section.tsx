@@ -4,6 +4,7 @@ type SectionProps = {
   title: string;
   articles: {
     title: string;
+    slug: string;
     preview: string;
     image: string;
     author: string;

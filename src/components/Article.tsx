@@ -3,6 +3,7 @@ import Link from "next/link";
 
 type ArticleProps = {
   title: string;
+  slug: string;
   preview: string;
   image: string;
   author: string;
@@ -10,6 +11,7 @@ type ArticleProps = {
 
 export default function Article({
   title,
+  slug,
   preview,
   image,
   author,
@@ -27,7 +29,7 @@ export default function Article({
       </div>
       <h3 className="text-xl">
         <Link
-          href={`/articles/${encodeURIComponent(title)}`}
+          href={`/articles/${slug}`}
           className="underline decoration-stone-300 underline-offset-4 hover:decoration-stone-800"
         >
           {title}
